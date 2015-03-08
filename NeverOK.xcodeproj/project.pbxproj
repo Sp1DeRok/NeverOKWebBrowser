@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CB296A11AABD904008A4CD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB296A01AABD904008A4CD6 /* main.m */; };
+		7CB296A31AABD904008A4CD6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CB296A21AABD904008A4CD6 /* Images.xcassets */; };
+		7CB296A61AABD904008A4CD6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CB296A41AABD904008A4CD6 /* MainMenu.xib */; };
+		7CB296B21AABD904008A4CD6 /* NeverOKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB296B11AABD904008A4CD6 /* NeverOKTests.m */; };
+		7CB296C41AABD930008A4CD6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB296BC1AABD930008A4CD6 /* AppDelegate.m */; };
+		7CB296C51AABD930008A4CD6 /* BrowserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB296BE1AABD930008A4CD6 /* BrowserView.m */; };
+		7CB296C71AABD930008A4CD6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CB296C11AABD930008A4CD6 /* MainWindow.xib */; };
+		7CB296C81AABD930008A4CD6 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB296C31AABD930008A4CD6 /* MainWindowController.m */; };
+		7CB296D01AABD997008A4CD6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB296CF1AABD997008A4CD6 /* WebKit.framework */; };
+		7CB296D11AABD99A008A4CD6 /* MMTabBarView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB296CE1AABD966008A4CD6 /* MMTabBarView.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CB296AC1AABD904008A4CD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CB296901AABD903008A4CD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CB296971AABD903008A4CD6;
+			remoteInfo = NeverOK;
+		};
+		7CB296CD1AABD966008A4CD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CB296C91AABD964008A4CD6 /* MMTabBarView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06DB23A61609F5830071BDA0;
+			remoteInfo = MMTabBarView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CB296981AABD904008A4CD6 /* NeverOK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeverOK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB2969C1AABD904008A4CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB296A01AABD904008A4CD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CB296A21AABD904008A4CD6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7CB296A51AABD904008A4CD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7CB296AB1AABD904008A4CD6 /* NeverOKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeverOKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CB296B01AABD904008A4CD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CB296B11AABD904008A4CD6 /* NeverOKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NeverOKTests.m; sourceTree = "<group>"; };
+		7CB296BB1AABD930008A4CD6 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CB296BC1AABD930008A4CD6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CB296BD1AABD930008A4CD6 /* BrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserView.h; sourceTree = "<group>"; };
+		7CB296BE1AABD930008A4CD6 /* BrowserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserView.m; sourceTree = "<group>"; };
+		7CB296C11AABD930008A4CD6 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		7CB296C21AABD930008A4CD6 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		7CB296C31AABD930008A4CD6 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		7CB296C91AABD964008A4CD6 /* MMTabBarView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MMTabBarView.xcodeproj; path = MMTabBarView/MMTabBarView/MMTabBarView.xcodeproj; sourceTree = "<group>"; };
+		7CB296CF1AABD997008A4CD6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CB296951AABD903008A4CD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB296D11AABD99A008A4CD6 /* MMTabBarView.framework in Frameworks */,
+				7CB296D01AABD997008A4CD6 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB296A81AABD904008A4CD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CB2968F1AABD903008A4CD6 = {
+			isa = PBXGroup;
+			children = (
+				7CB296CF1AABD997008A4CD6 /* WebKit.framework */,
+				7CB296C91AABD964008A4CD6 /* MMTabBarView.xcodeproj */,
+				7CB2969A1AABD904008A4CD6 /* NeverOK */,
+				7CB296AE1AABD904008A4CD6 /* NeverOKTests */,
+				7CB296991AABD904008A4CD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CB296991AABD904008A4CD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CB296981AABD904008A4CD6 /* NeverOK.app */,
+				7CB296AB1AABD904008A4CD6 /* NeverOKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CB2969A1AABD904008A4CD6 /* NeverOK */ = {
+			isa = PBXGroup;
+			children = (
+				7CB296BB1AABD930008A4CD6 /* AppDelegate.h */,
+				7CB296BC1AABD930008A4CD6 /* AppDelegate.m */,
+				7CB296BD1AABD930008A4CD6 /* BrowserView.h */,
+				7CB296BE1AABD930008A4CD6 /* BrowserView.m */,
+				7CB296C11AABD930008A4CD6 /* MainWindow.xib */,
+				7CB296C21AABD930008A4CD6 /* MainWindowController.h */,
+				7CB296C31AABD930008A4CD6 /* MainWindowController.m */,
+				7CB296A21AABD904008A4CD6 /* Images.xcassets */,
+				7CB296A41AABD904008A4CD6 /* MainMenu.xib */,
+				7CB2969B1AABD904008A4CD6 /* Supporting Files */,
+			);
+			path = NeverOK;
+			sourceTree = "<group>";
+		};
+		7CB2969B1AABD904008A4CD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CB2969C1AABD904008A4CD6 /* Info.plist */,
+				7CB296A01AABD904008A4CD6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CB296AE1AABD904008A4CD6 /* NeverOKTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CB296B11AABD904008A4CD6 /* NeverOKTests.m */,
+				7CB296AF1AABD904008A4CD6 /* Supporting Files */,
+			);
+			path = NeverOKTests;
+			sourceTree = "<group>";
+		};
+		7CB296AF1AABD904008A4CD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CB296B01AABD904008A4CD6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CB296CA1AABD964008A4CD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CB296CE1AABD966008A4CD6 /* MMTabBarView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CB296971AABD903008A4CD6 /* NeverOK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB296B51AABD904008A4CD6 /* Build configuration list for PBXNativeTarget "NeverOK" */;
+			buildPhases = (
+				7CB296941AABD903008A4CD6 /* Sources */,
+				7CB296951AABD903008A4CD6 /* Frameworks */,
+				7CB296961AABD903008A4CD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeverOK;
+			productName = NeverOK;
+			productReference = 7CB296981AABD904008A4CD6 /* NeverOK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CB296AA1AABD904008A4CD6 /* NeverOKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CB296B81AABD904008A4CD6 /* Build configuration list for PBXNativeTarget "NeverOKTests" */;
+			buildPhases = (
+				7CB296A71AABD904008A4CD6 /* Sources */,
+				7CB296A81AABD904008A4CD6 /* Frameworks */,
+				7CB296A91AABD904008A4CD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CB296AD1AABD904008A4CD6 /* PBXTargetDependency */,
+			);
+			name = NeverOKTests;
+			productName = NeverOKTests;
+			productReference = 7CB296AB1AABD904008A4CD6 /* NeverOKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CB296901AABD903008A4CD6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Sp1DeR App";
+				TargetAttributes = {
+					7CB296971AABD903008A4CD6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					7CB296AA1AABD904008A4CD6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 7CB296971AABD903008A4CD6;
+					};
+				};
+			};
+			buildConfigurationList = 7CB296931AABD903008A4CD6 /* Build configuration list for PBXProject "NeverOK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CB2968F1AABD903008A4CD6;
+			productRefGroup = 7CB296991AABD904008A4CD6 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7CB296CA1AABD964008A4CD6 /* Products */;
+					ProjectRef = 7CB296C91AABD964008A4CD6 /* MMTabBarView.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				7CB296971AABD903008A4CD6 /* NeverOK */,
+				7CB296AA1AABD904008A4CD6 /* NeverOKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7CB296CE1AABD966008A4CD6 /* MMTabBarView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MMTabBarView.framework;
+			remoteRef = 7CB296CD1AABD966008A4CD6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CB296961AABD903008A4CD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB296A31AABD904008A4CD6 /* Images.xcassets in Resources */,
+				7CB296A61AABD904008A4CD6 /* MainMenu.xib in Resources */,
+				7CB296C71AABD930008A4CD6 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB296A91AABD904008A4CD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CB296941AABD903008A4CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB296C81AABD930008A4CD6 /* MainWindowController.m in Sources */,
+				7CB296C41AABD930008A4CD6 /* AppDelegate.m in Sources */,
+				7CB296A11AABD904008A4CD6 /* main.m in Sources */,
+				7CB296C51AABD930008A4CD6 /* BrowserView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CB296A71AABD904008A4CD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CB296B21AABD904008A4CD6 /* NeverOKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CB296AD1AABD904008A4CD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CB296971AABD903008A4CD6 /* NeverOK */;
+			targetProxy = 7CB296AC1AABD904008A4CD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CB296A41AABD904008A4CD6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CB296A51AABD904008A4CD6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CB296B31AABD904008A4CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7CB296B41AABD904008A4CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7CB296B61AABD904008A4CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NeverOK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CB296B71AABD904008A4CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NeverOK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CB296B91AABD904008A4CD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NeverOKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeverOK.app/Contents/MacOS/NeverOK";
+			};
+			name = Debug;
+		};
+		7CB296BA1AABD904008A4CD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NeverOKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeverOK.app/Contents/MacOS/NeverOK";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CB296931AABD903008A4CD6 /* Build configuration list for PBXProject "NeverOK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB296B31AABD904008A4CD6 /* Debug */,
+				7CB296B41AABD904008A4CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CB296B51AABD904008A4CD6 /* Build configuration list for PBXNativeTarget "NeverOK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB296B61AABD904008A4CD6 /* Debug */,
+				7CB296B71AABD904008A4CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CB296B81AABD904008A4CD6 /* Build configuration list for PBXNativeTarget "NeverOKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CB296B91AABD904008A4CD6 /* Debug */,
+				7CB296BA1AABD904008A4CD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CB296901AABD903008A4CD6 /* Project object */;
+}
